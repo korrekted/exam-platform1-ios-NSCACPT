@@ -32,6 +32,7 @@
 		968FCC2D26C1387800C01D2A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 968FCBF126C1361200C01D2A /* Localizable.strings */; };
 		968FCC3326C13AA100C01D2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 968FCC3226C13AA100C01D2A /* GoogleService-Info.plist */; };
 		BAD0676C50E28F6D8CC59827 /* Pods_NSCACPT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E91BA62F4618F18C9F4074D /* Pods_NSCACPT.framework */; };
+		DE4FA14E28D82EEC00085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA14D28D82EEC00085483 /* Onboarding.Chart.json */; };
 		DEC38059289A989A005372BC /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37E94289A9899005372BC /* UIColorExtension.swift */; };
 		DEC3805A289A989A005372BC /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37E95289A9899005372BC /* Collection+Extension.swift */; };
 		DEC3805B289A989A005372BC /* Observable+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC37E96289A9899005372BC /* Observable+Utils.swift */; };
@@ -334,7 +335,6 @@
 		DEC38184289A989A005372BC /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3803B289A989A005372BC /* OImproveCell.swift */; };
 		DEC38185289A989A005372BC /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3803D289A989A005372BC /* ReferencesTableCell.swift */; };
 		DEC38186289A989A005372BC /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC3803E289A989A005372BC /* ReferencesTableView.swift */; };
-		DEC38187289A989A005372BC /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DEC38040289A989A005372BC /* Onboarding.Chart.json */; };
 		DEC38188289A989A005372BC /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38041289A989A005372BC /* OWhenStudyCell.swift */; };
 		DEC38189289A989A005372BC /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38043289A989A005372BC /* WelcomeSlide1View.swift */; };
 		DEC3818A289A989A005372BC /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC38044289A989A005372BC /* WelcomeSlideIndicatorView.swift */; };
@@ -422,6 +422,7 @@
 		968FCC3226C13AA100C01D2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9E91BA62F4618F18C9F4074D /* Pods_NSCACPT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NSCACPT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF84016B6B28BC0DBA148325 /* Pods-NSCACPT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NSCACPT.debug.xcconfig"; path = "Target Support Files/Pods-NSCACPT/Pods-NSCACPT.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4FA14D28D82EEC00085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC37E94289A9899005372BC /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		DEC37E95289A9899005372BC /* Collection+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extension.swift"; sourceTree = "<group>"; };
 		DEC37E96289A9899005372BC /* Observable+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Utils.swift"; sourceTree = "<group>"; };
@@ -724,7 +725,6 @@
 		DEC3803B289A989A005372BC /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DEC3803D289A989A005372BC /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DEC3803E289A989A005372BC /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DEC38040289A989A005372BC /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DEC38041289A989A005372BC /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DEC38043289A989A005372BC /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DEC38044289A989A005372BC /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -2273,7 +2273,7 @@
 		DEC3803F289A989A005372BC /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DEC38040289A989A005372BC /* Onboarding.Chart.json */,
+				DE4FA14D28D82EEC00085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2373,12 +2373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEC381A4289A98DD005372BC /* SF-Pro-Rounded-Black.otf in Resources */,
-				DEC38187289A989A005372BC /* Onboarding.Chart.json in Resources */,
 				968FCC3326C13AA100C01D2A /* GoogleService-Info.plist in Resources */,
 				968FCBEE26C1360200C01D2A /* SF-Pro-Rounded-Regular.otf in Resources */,
 				968FCBF226C1361200C01D2A /* Localizable.strings in Resources */,
 				968FCBEF26C1360200C01D2A /* SF-Pro-Rounded-Bold.otf in Resources */,
 				968FCBF526C1366300C01D2A /* LaunchScreen.storyboard in Resources */,
+				DE4FA14E28D82EEC00085483 /* Onboarding.Chart.json in Resources */,
 				968FC9C226C1311A00C01D2A /* Assets.xcassets in Resources */,
 				968FCBED26C1360200C01D2A /* SF-Pro-Rounded-Semibold.otf in Resources */,
 			);
@@ -2949,7 +2949,7 @@
 				CODE_SIGN_ENTITLEMENTS = NSCACPT/NSCACPT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/NSCACPT/Resource/Info.plist";
@@ -2958,7 +2958,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nscacpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NSCA CPT Prod";
@@ -2978,7 +2978,7 @@
 				CODE_SIGN_ENTITLEMENTS = NSCACPT/NSCACPT.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = "$(SRCROOT)/NSCACPT/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -2986,7 +2986,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nscacpt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NSCA CPT Prod";
@@ -3004,7 +3004,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3013,7 +3013,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nscacpt.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NSCA CPT Widget Prod";
@@ -3031,7 +3031,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 6;
+				CURRENT_PROJECT_VERSION = 7;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -3040,7 +3040,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.nscacpt.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "NSCA CPT Widget Prod";
